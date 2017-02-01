@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Film Reviews</title>
+    <script src='bundle.js'></script>
+  </head>
+  <body>
+    <ul id="films">
+    </ul>
+    <form action="/api/films" method="post">
+    <h4>New Film</h4>
+      Title:<br>
+      <input id="title" type="text" name="title" value="">
+      <br>
+      Actors:<br>
+      <input id="actors" type="text" name="actors" value="">
+      <br>
+      Genre:<br>
+      <input id="genre" type="text" name="genre" value="">
+      <br>
+      <input type="submit" value=submit>
+      </form>
+  </body>
+</html>
